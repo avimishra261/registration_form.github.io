@@ -151,6 +151,12 @@
         <input type="text" name="gender" id="gender" placeholder="Enter your gender">
         <button type="submit" id="btn">Submit now</button>
     </form>
+    <script>
+        const button = document.getElementById('btn');
+        button.addEventListener('click',(e)=>{
+            e.preventDefault();
+        });
+    </script>
 </body>
 
 </html>
